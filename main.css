@@ -1,0 +1,53 @@
+.one {
+  position:absolute
+}
+
+.block{
+  display:block   
+}
+
+
+ .gradient {
+    width: 600px;
+    background: linear-gradient(to left, #deb887, #00bfff);
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #333;
+   }
+
+
+
+.lafter{
+    width: auto;
+    background-color: aqua;
+    font-size: 20px;
+}
+.lafter::after{
+    content: "[псевдоклас after]";
+    background-color: coral;
+    border-color: black;
+    border-style: dotted;
+}
+
+.lbefore{
+    width:auto;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.lbefore::before{
+    content: "[псевдоклас before]";
+    background-color: coral;
+    border-color: black;
+    border-style: dotted;
+}
+
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  background:#00bfff;
+  height: 100px;
+  align-content: space-between;
+}
+
